@@ -1,0 +1,27 @@
+.rightbar {
+  flex: 0.6;
+  height: calc(100vh - 4rem);
+  margin: 0 1rem;
+  position: sticky;
+  top: 4rem;
+}
+.adContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.bday-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.bday-container img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+.ad-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}

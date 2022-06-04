@@ -1,0 +1,43 @@
+.leftbar {
+  flex: 0.5;
+  height: calc(100vh - 4rem);
+  position: sticky;
+  top: 4rem;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 185, 185);
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(231, 231, 231);
+}
+.leftbar-wrapper {
+  padding: 3rem 5rem;
+}
+.leftbar-wrapper li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.leftbar-wrapper li span {
+  margin-left: 1rem;
+  color: gray;
+}
+.leftbar-wrapper li span:hover {
+  color: black;
+}
+.leftbar-wrapper button {
+  width: 10rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+.leftbar-wrapper hr {
+  margin: 1rem 0;
+}
